@@ -1,0 +1,77 @@
+# Exploratory Data Analysis in R
+
+## Install Necessary Libraries
+
+```{r}
+install.packages("ggplot2")
+```
+
+## Load Necessary libraries
+
+```{r}
+library(ggplot2)
+```
+
+## 1. Data Generation
+
+```{r}
+# Generate fake continuous data (e.g., "yield per hectare")
+set.seed(123)  # For reproducibility
+yield_data <- rnorm(100, mean = 50, sd = 10)  # 100 observations, mean=50, sd=10
+
+# Display the first few rows of the data
+head(yield_data)
+
+```
+
+## 2. Exploratory Data Analysis
+
+```{r}
+# Measures of Central Tendency
+mean_yield <- mean(yield_data)
+median_yield <- median(yield_data)
+mode_yield <- as.numeric(names(sort(table(yield_data), decreasing = TRUE)[1]))
+
+cat("Mean:", mean_yield, "\n")
+cat("Median:", median_yield, "\n")
+cat("Mode:", mode_yield, "\n")
+
+# Measures of Dispersion
+sd_yield <- sd(yield_data)  # Standard deviation
+variance_yield <- var(yield_data)  # Variance
+range_yield <- range(yield_data)  # Range (minimum and maximum)
+amplitude_yield <- diff(range_yield)  # Absolute range
+
+cat("Standard Deviation:", sd_yield, "\n")
+cat("Variance:", variance_yield, "\n")
+cat("Range:", amplitude_yield, "\n")
+
+# Separating Measures
+quartiles_yield <- quantile(yield_data, probs = c(0.25, 0.5, 0.75))  # Quartiles
+percentiles_yield <- quantile(yield_data, probs = seq(0.1, 1, by = 0.1))  # Deciles or Percentiles
+
+cat("Quartiles:", quartiles_yield, "\n")
+cat("Percentiles (Deciles):", percentiles_yield, "\n")
+```
+
+## 3. Graphical Analysis
+
+```{r}
+# Histogram
+hist(yield_data, main = "Histogram of Yield per Hectare", 
+     xlab = "Yield per Hectare", ylab = "Frequency", 
+     col = "lightblue", border = "black")
+
+# Boxplot
+boxplot(yield_data, main = "Boxplot of Yield per Hectare", 
+        ylab = "Yield per Hectare", col = "lightgreen")
+
+# Bar chart for the frequency of rounded values
+rounded_yield <- round(yield_data)
+yield_table <- table(rounded_yield)
+barplot(yield_table, main = "Bar Chart of Rounded Yield", 
+        xlab = "Yield per Hectare (Rounded)", ylab = "Frequency", 
+        col = "lightcoral", border = "black")
+
+cat("Exploratory analysis completed.\n")
+```
