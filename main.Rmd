@@ -71,9 +71,9 @@ ggplot(total_production, aes(x = "", y = percentage, fill = Tipo.de.Cultura)) +
   geom_bar(stat = "identity", width = 1) +
   coord_polar("y", start = 0) +
   labs(title = "Produção por Tipo de Cultura", fill = "Tipo de Cultura") +
-  theme_minimal() +
+  theme_gray() +
   theme(legend.position = "right") +
-  geom_text(aes(label = paste(Tipo.de.Cultura, " (", round(percentage, 1), "%)")), position = position_stack(vjust = 0.5))
+  geom_text(aes(label = paste(round(percentage, 1), "%")), position = position_stack(vjust = 0.5))
 
 cat("Exploratory analysis completed.\n")
 ```

@@ -35,7 +35,7 @@ This document outlines the tasks required to complete the agribusiness data anal
 
 ## 5. Deliverables
 
-- [ ] Fix `data.csv`
+- [ ] Fix `data.csv` continuous values
 - [ ] Submit the following files:
   - [ ] **Excel file** with the complete dataset.
   - [ ] **R script file** containing all the analysis code with the following header format:
