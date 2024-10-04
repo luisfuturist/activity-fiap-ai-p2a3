@@ -1,3 +1,9 @@
+# LuisFillipeEmidio_RM559976_fase2_cap7
+# EdersonLuizBadecadosSantos_RM560204_fase2_cap7
+# CaioRodriguesCastro_RM559766_fase2_cap7
+# FelipeSoaresNascimento_RM560151_fase2_cap7
+# LucasFerreiraHillesheim_RM559319_fase2_cap7
+
 if(!require("ggplot2")) install.packages("ggplot2")
 if(!require("readxl")) install.packages("readxl")
 
