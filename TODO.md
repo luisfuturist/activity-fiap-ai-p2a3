@@ -20,6 +20,8 @@ This document outlines the tasks required to complete the agribusiness data anal
   - [x] **Qualitative Nominal Variable**: Non-ordered categories (e.g., type of crop: corn, soy, coffee).
   - [x] **Qualitative Ordinal Variable**: Ordered categories (e.g., soil quality: poor, medium, good).
   
+**Note**: You can access the spritesheets [here](https://docs.google.com/spreadsheets/d/1OHhUuwQ0VD0_e-xOECx53MZg7pXBsANc-zVHARGmqHA/edit?usp=sharing)
+
 ## 3. Exploratory Analysis in R
 
 - [x] Select a quantitative variable and perform an exploratory analysis using **R**:
