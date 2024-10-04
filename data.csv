@@ -1,25 +1,25 @@
 UF,Tipo de Cultura,N. de Produtores (Discreta),Produção (Toneladas),Área Plantada (ha),Classificação de Produtividade
-São Paulo,Laranja,500,14491376,419308,Alta
-São Paulo,Café,500,44590000,216000,Alta
-São Paulo,Milho,500,10930000,1200000,Alta
-São Paulo,Cana-de-açúcar,500,355091,4308100,Alta
-Minas Gerais,Laranja,200,936039,37032,Alta
-Minas Gerais,Café,200,34500000,1000000,Alta
-Minas Gerais,Milho,200,7800000,1000000,Alta
-Minas Gerais,Cana-de-açúcar,200,83236,1004600,Alta
-Paraná,Laranja,150,804492,22480,Média
-Paraná,Milho,150,9200000,1150000,Média
-Paraná,Cana-de-açúcar,150,37000,522600,Média
-Bahia,Laranja,120,633000,61500,Baixa
-Bahia,Café,120,15300000,25000,Baixa
-Bahia,Milho,120,2100000,200000,Baixa
-Bahia,Cacau,120,10080,,Baixa
-Bahia,Cana-de-açúcar,120,5878,67400,Baixa
-Sergipe,Laranja,100,364000,32864,Baixa
-Espírito Santo,Café,,14994000,500000,Alta
-Espírito Santo,Cacau,,9910,,Alta
-Rio Grande do Sul,Arroz,,7657200,940000,Alta
-Santa Catarina,Arroz,,1148700,144000,Alta
-Tocantins,Arroz,,634100,122500,Média
-Mato Grosso,Arroz,,402600,118800,Média
-Mato Grosso,Cana-de-açúcar,,5713662,2086628,Alta
+São Paulo,Laranja,500,"14,491.38",419308,Alta
+São Paulo,Café,500,"44,590.00",216000,Alta
+São Paulo,Milho,500,"10,930.00",1200000,Alta
+São Paulo,Cana-de-açúcar,500,355.091,4308100,Alta
+Minas Gerais,Laranja,200,936.039,37032,Alta
+Minas Gerais,Café,200,"34,500.00",1000000,Alta
+Minas Gerais,Milho,200,"7,800.00",1000000,Alta
+Minas Gerais,Cana-de-açúcar,200,83.236,1004600,Alta
+Paraná,Laranja,150,804.492,22480,Média
+Paraná,Milho,150,"9,200.00",1150000,Média
+Paraná,Cana-de-açúcar,150,37,522600,Média
+Bahia,Laranja,120,633,61500,Baixa
+Bahia,Café,120,"15,300.00",25000,Baixa
+Bahia,Milho,120,"2,100.00",200000,Baixa
+Bahia,Cacau,120,10.08,,Baixa
+Bahia,Cana-de-açúcar,120,5.878,67400,Baixa
+Sergipe,Laranja,100,364,32864,Baixa
+Espírito Santo,Café,,"14,994.00",500000,Alta
+Espírito Santo,Cacau,,9.91,,Alta
+Rio Grande do Sul,Arroz,,"7,657.20",940000,Alta
+Santa Catarina,Arroz,,"1,148.70",144000,Alta
+Tocantins,Arroz,,634.1,122500,Média
+Mato Grosso,Arroz,,402.6,118800,Média
+Mato Grosso,Cana-de-açúcar,,"5,713.66",2086628,Alta
