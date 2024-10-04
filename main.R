@@ -1,15 +1,15 @@
 if(!require("ggplot2")) install.packages("ggplot2")
-
-library(ggplot2)
+if(!require("readxl")) install.packages("readxl")
 
 cat("# Exploratory Data Analysis (EDA)\n")
 cat("\n")
 
 ## 1. Read data from a CSV file
 
-df <- read.csv("data.csv")
-production <- as.numeric(gsub(",", "", df$Produção..Toneladas.))
-cat("Data loaded successfully from the CSV file: `./data.csv`.\n")
+df <- readxl::read_xlsx("data.xlsx")
+production <- df$`Produção (Toneladas)`
+
+cat("Data loaded successfully from the XLSX file: `./data.xlsx`.\n")
 cat("Column selected: Produção (Toneladas)\n")
 cat("\n")
 
