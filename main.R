@@ -85,10 +85,10 @@ ggplot(total_production, aes(x = reorder(`Tipo de Cultura`, percentage), y = per
   theme(legend.position = "none",
         plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5)) +
-  geom_text(aes(label = paste(round(percentage, 1), "%")),
+  geom_text(aes(label = paste(round(percentage, 2), "%")),
             hjust = -0.1,
             color = "black")
 
 
 cat("Insights:\n")
-cat("- O tipo de cultura com maior produção representa", max(total_production$percentage), "% da producao total.\n")
+cat("- O tipo de cultura com maior producao representa", max(total_production$percentage), "% da producao total.\n")
