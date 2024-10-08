@@ -11,18 +11,18 @@
 ## Grupo 20
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/in/caio-rodrigues-castro">Caio Rodrigues Castro</a> 
-- <a href="https://www.linkedin.com/in/ederson-luiz-badeca-dos-santos">Ederson Luiz Badeca dos Santos</a> 
-- <a href="https://www.linkedin.com/in/felipe-soares-nascimento">Felipe Soares Nascimento</a>
-- <a href="https://www.linkedin.com/in/lucas-ferreira-hillesheim">Lucas Ferreira Hillesheim</a>
-- <a href="https://www.linkedin.com/in/luís-fillipe-emidio">Luís Fillipe Emidio</a>
+- <a href="https://www.linkedin.com/in/caiorcastro/">Caio Rodrigues Castro</a> 
+- <a href="https://www.linkedin.com/in/ederson-badeca/">Ederson Luiz Badeca dos Santos</a> 
+- <a href="https://www.linkedin.com/in/digitalmanagerfelipesoares/">Felipe Soares Nascimento</a>
+- <a href="https://www.linkedin.com/in/lfhillesheim/">Lucas Ferreira Hillesheim</a>
+- <a href="https://www.linkedin.com/in/luisfuturist/">Luís Fillipe Emidio</a>
 
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
 - <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Lucas Gomes</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- <a href="https://www.linkedin.com/in/profandregodoi/">André Godoi Chiovato</a>
 
 ## 📜 Descrição
 
