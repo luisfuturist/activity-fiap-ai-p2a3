@@ -28,6 +28,13 @@
 
 O projeto "Análise Estatística de Dados do Agro" tem como objetivo realizar uma análise detalhada dos dados do agronegócio, um setor vital para a economia global. O agronegócio engloba a produção, comercialização e distribuição de produtos agrícolas, desempenhando um papel crucial na segurança alimentar, geração de empregos e desenvolvimento regional. Este projeto explorará dados de fontes como CONAB, IBGE, MAPA, Embrapa, INPE e CNA Brasil, utilizando técnicas de análise estatística e visualização de dados para fornecer insights valiosos sobre o setor.
 
+## 📊 Visualização dos Dados
+
+Abaixo está um exemplo de gráfico gerado durante a análise dos dados:
+
+<p align="center">
+<img src="![agro-analise](https://github.com/user-attachments/assets/2485904c-ef9d-4ce8-b089-2fa1949fe0e4)" alt="Gráfico de Análise de Dados do Agro" width="60%" height="60%">
+</p>
 
 ## 🔧 Como executar o código
 
