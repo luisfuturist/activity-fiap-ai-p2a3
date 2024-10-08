@@ -32,9 +32,8 @@ O projeto "Análise Estatística de Dados do Agro" tem como objetivo realizar um
 
 Abaixo está um exemplo de gráfico gerado durante a análise dos dados:
 
-<p align="center">
 ![agro-analise](https://github.com/user-attachments/assets/2485904c-ef9d-4ce8-b089-2fa1949fe0e4)
-</p>
+
 
 ## 🔧 Como executar o código
 
