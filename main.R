@@ -4,8 +4,14 @@
 # FelipeSoaresNascimento_RM560151_fase2_cap7
 # LucasFerreiraHillesheim_RM559319_fase2_cap7
 
+
 if(!require("ggplot2")) install.packages("ggplot2")
 if(!require("readxl")) install.packages("readxl")
+if(!require("dplyr")) install.packages("dplyr")
+options(encoding = "UTF-8")
+library(ggplot2)
+library(dplyr)
+library(readxl)
 
 cat("# Exploratory Data Analysis (EDA)\n")
 cat("\n")
@@ -18,6 +24,7 @@ production <- df$`Produção (Toneladas)`
 cat("Data loaded successfully from the XLSX file: `./data.xlsx`.\n")
 cat("Column selected: Produção (Toneladas)\n")
 cat("\n")
+
 
 ## 2. Exploratory Data Analysis
 
@@ -57,21 +64,31 @@ cat("\n")
 
 ## Pie chart for the production (in percentage) of each culture type
 
-# total_production <- yield_data %>%
-#   group_by(Tipo.de.Cultura) %>%
-#   summarise(total_production = sum(Produção..Toneladas.))
+total_production <- df %>%
+  group_by(`Tipo de Cultura`) %>%
+  summarise(total_production = sum(`Produção (Toneladas)`))
 
-# # Calculate the percentage of total production for each culture type
-# total_production <- total_production %>%
-#   mutate(percentage = total_production / sum(total_production) * 100)
+# Calcular o percentual de produção total para cada tipo de cultura
+total_production <- total_production %>%
+  mutate(percentage = total_production / sum(total_production) * 100)
 
-# head(total_production)
+# Create a barchart
+ggplot(total_production, aes(x = reorder(`Tipo de Cultura`, percentage), y = percentage, fill = `Tipo de Cultura`)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  labs(title = "Distribuicao da Producao por Tipo de Cultura",
+       subtitle = "Analise da producao agricola em toneladas",
+       caption = "Fonte: Dados extraidos de 'data.xlsx'",
+       x = "Tipo de Cultura",
+       y = "Percentual de Producao (%)") +
+  theme_minimal() +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  geom_text(aes(label = paste(round(percentage, 2), "%")),
+            hjust = -0.1,
+            color = "black")
 
-# # Create the pie chart
-# ggplot(total_production, aes(x = "", y = percentage, fill = Tipo.de.Cultura)) +
-#   geom_bar(stat = "identity", width = 1) +
-#   coord_polar("y", start = 0) +
-#   labs(title = "Produção por Tipo de Cultura", fill = "Tipo de Cultura") +
-#   theme_gray() +
-#   theme(legend.position = "right") +
-#   geom_text(aes(label = paste(round(percentage, 1), "%")), position = position_stack(vjust = 0.5))
+
+cat("Insights:\n")
+cat("- O tipo de cultura com maior producao representa", max(total_production$percentage), "% da producao total.\n")
