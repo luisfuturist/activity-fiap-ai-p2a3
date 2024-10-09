@@ -52,17 +52,17 @@ Para executar o código, siga os passos abaixo:
    - O arquivo `data.xlsx` deve estar na mesma pasta do script para que os dados sejam carregados corretamente.
    - Siga as instruções no script para realizar a análise exploratória de dados.
 
-## 🗃 Histórico de lançamentos
+## 🗃 Histórico
 
-* 0.5.0 - 13/10/2024
+* 13/10/2024
     * Entrega final do projeto com análise completa.
-* 0.4.0 - 06/10/2024
+* 06/10/2024
     * Adição de análises gráficas.
-* 0.3.0 - 29/09/2024
+* 29/09/2024
     * Implementação de medidas de tendência central e dispersão.
-* 0.2.0 - 22/09/2024
+* 22/09/2024
     * Criação da base de dados inicial.
-* 0.1.0 - 19/09/2024
+* 19/09/2024
     * Estruturação do projeto e definição de objetivos.
 
 ## 📋 Licença
